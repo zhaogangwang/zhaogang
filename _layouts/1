@@ -1,0 +1,10 @@
+<html style="color:black;">
+	<head>
+		<title>Bitbill</title>
+	</head>
+	<body>
+
+		{{content}}
+
+	</body>
+</html>

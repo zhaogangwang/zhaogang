@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 最安全最好用的数字资产钱包
-email: www.bitbill.com
+#title: 最安全最好用的数字资产钱包
+#email: hi@bitbill.com
 
 #description: >- # this means to ignore newlines until "baseurl:"
 
@@ -28,12 +28,9 @@ email: www.bitbill.com
 
 # Build settings
 markdown: kramdown
-kramown:
-  input:GFM
-
 theme: minima
-plugins:
-  - jekyll-feed
+#plugins:
+# - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -46,14 +43,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-
-
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  use_coderay: false
-
